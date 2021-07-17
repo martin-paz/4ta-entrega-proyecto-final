@@ -1,0 +1,1817 @@
+/*General*/
+*, ::after, ::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url(../media/tecnologia9.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.tex-center {
+  text-align: center; }
+
+/*navbar bootstrap*/
+nav #color {
+  color: #0080f8;
+  font-size: 1.4rem; }
+
+nav #B {
+  color: #05b388ec; }
+
+nav #color-it {
+  color: #05b388ec; }
+
+nav .navbar-collapse {
+  justify-content: flex-end; }
+
+nav #li a {
+  font-size: 1.4rem;
+  color: #05b388ec; }
+
+nav #li a:hover {
+  color: #0080f8; }
+
+html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate {
+  transform: translateZ(0); }
+
+html:not(.no-js) [data-aos=fade-right] {
+  transform: translate3d(40px, 0, 0); }
+
+html:not(.no-js) [data-aos=fade-left] {
+  transform: translate3d(40px, 0, 0); }
+
+/*media query*/
+@media screen and (min-width: 0px) {
+  /*index*/
+  /*carrusel*/
+  main #div-carrusel {
+    height: 450px;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover; }
+  main #texto {
+    transform: translate(-15%, -15%);
+    top: 50%;
+    bottom: 0; }
+  main #sub-texto {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold; }
+    main #sub-texto b {
+      font-size: 2.4rem; }
+  /*footer*/
+  footer {
+    width: 100%;
+    background-color: #293642; }
+    footer .container-footer {
+      height: 200px;
+      padding: 10px 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      position: relative; }
+    footer .derechos {
+      margin: 5px 0;
+      text-decoration: none;
+      list-style: none;
+      color: #0080f8;
+      font-size: 1.01rem;
+      text-align: center; }
+      footer .derechos p {
+        margin-bottom: 2px;
+        font-size: 14px; }
+      footer .derechos b {
+        margin-bottom: 2px;
+        font-size: 14px; }
+    footer .colum-div {
+      width: 80vw;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-evenly; }
+      footer .colum-div .icon-social {
+        width: 75px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px; }
+  /*fin index*/
+  /*main nosotros*/
+  article.titulo-card {
+    margin: 15px 0; }
+    article.titulo-card .div-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      article.titulo-card .div-text .titulo-seccion, article.titulo-card .div-text .prueba-extend {
+        margin: 1.5rem 0;
+        color: #0080f8;
+        font-size: 2.5rem; }
+      article.titulo-card .div-text .tex-center {
+        text-align: center; }
+      article.titulo-card .div-text .fondo-color {
+        background-color: rgba(0, 0, 0, 0.3); }
+      article.titulo-card .div-text .text-seccion, article.titulo-card .div-text .extend-prueba {
+        margin-bottom: 1.75rem;
+        color: #00c090;
+        font-size: 1.2rem;
+        width: 90%; }
+    article.titulo-card .card-section {
+      width: 100%;
+      height: 100%;
+      padding: 1rem 1.25rem; }
+      article.titulo-card .card-section .card-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; }
+        article.titulo-card .card-section .card-container .card-flex {
+          width: 100%;
+          margin: 20px 0;
+          background: #fff;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+          article.titulo-card .card-section .card-container .card-flex .card-img {
+            filter: grayscale(0%);
+            border: 1px solid white; }
+          article.titulo-card .card-section .card-container .card-flex .card-titulo {
+            font-size: 24px;
+            color: #0080f8; }
+          article.titulo-card .card-section .card-container .card-flex #text-card {
+            font-size: 16px;
+            color: #00c090; }
+          article.titulo-card .card-section .card-container .card-flex .card-text {
+            font-style: italic;
+            font-size: 14.5px; }
+          article.titulo-card .card-section .card-container .card-flex .card-footer {
+            width: 100%; }
+          article.titulo-card .card-section .card-container .card-flex .mailto-primery a {
+            width: 100%;
+            color: #0080f8;
+            font-size: 0.9rem;
+            text-decoration: none; }
+  .misiones-etc {
+    margin: 15px 10px;
+    padding: 0 10px; }
+    .misiones-etc .div-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+      margin-top: 15px;
+      padding-top: 15px; }
+      .misiones-etc .div-container .titulo-misiones {
+        font-size: 1.9rem;
+        margin-bottom: 25px;
+        color: #00c090; }
+      .misiones-etc .div-container .anchura {
+        color: #fff;
+        font-size: .8rem;
+        width: 80%; }
+  /*fin main nosotros*/
+  /*main servicios*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.5rem 0;
+      color: #0080f8;
+      font-size: 2.5rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.2rem;
+      width: 90%; }
+  main .container-servi {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    justify-content: column; }
+    main .container-servi .servicio-list {
+      padding-bottom: 25px;
+      margin-bottom: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    main .container-servi .servi-img-div {
+      text-align: center;
+      padding-bottom: 10px;
+      padding-left: 0px; }
+    main .container-servi .servi-img {
+      width: 80%;
+      border: 1px solid #fff; }
+    main .container-servi .font {
+      color: #0080f8;
+      padding: 0 15px;
+      width: 275px;
+      font-size: 20px; }
+    main .container-servi .servi-comentario {
+      text-align: center;
+      padding: 0;
+      font-size: 14px;
+      font-style: italic;
+      width: 90%;
+      color: #fff; }
+    main .container-servi .margen {
+      margin: 0; }
+  /*fin main servicios*/
+  /*main clientes*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.75rem 0;
+      color: #0080f8;
+      font-size: 2.2rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      text-align: start;
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.05rem;
+      width: 90%; }
+      main .div-text .text-seccion .color-name, main .div-text .extend-prueba .color-name {
+        color: #0080f8;
+        font-style: italic; }
+  main .clientes-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 100%; }
+    main .clientes-main .card-clientes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 30px;
+      margin-bottom: 30px;
+      padding: 20px 0;
+      width: 90%; }
+      main .clientes-main .card-clientes .cliente-img {
+        width: 125px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        margin: 0; }
+      main .clientes-main .card-clientes .card-titulo {
+        padding-left: 10px;
+        text-align: start;
+        font-size: 20px;
+        color: #0080f8; }
+      main .clientes-main .card-clientes .card-subitulo {
+        border: 1px solid rgba(0, 0, 0, 0.225);
+        background-color: rgba(0, 0, 0, 0.1);
+        padding-left: 10px;
+        text-align: start;
+        font-size: 16px;
+        color: #00c090; }
+      main .clientes-main .card-clientes .cliente-comentario {
+        padding-left: 10px;
+        text-align: start;
+        font-style: italic;
+        font-size: 13.5px;
+        padding-right: 20px;
+        width: 100%;
+        color: #fff; }
+  /*fin main clientes*/
+  /*main contacto*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.5rem 0;
+      color: #0080f8;
+      font-size: 2.5rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.2rem;
+      width: 90%; }
+  main .container-form {
+    margin: 15px 10px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    main .container-form .icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0;
+      width: 100%; }
+      main .container-form .icons .ubicacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%; }
+        main .container-form .icons .ubicacion .correo {
+          padding-left: 0;
+          text-align: center; }
+          main .container-form .icons .ubicacion .correo .iconos {
+            width: 55px; }
+          main .container-form .icons .ubicacion .correo p {
+            margin-top: 5px;
+            color: #fff;
+            font-size: 13.5px; }
+      main .container-form .icons .correo-card {
+        padding-top: 20px;
+        width: 100%; }
+        main .container-form .icons .correo-card .img-correo {
+          width: 90%;
+          background-color: #000;
+          border-radius: 60%;
+          border: 1px solid #000; }
+    main .container-form .div-form {
+      width: 95%; }
+      main .container-form .div-form .form-titulo {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        text-align: center;
+        color: #0080f8; }
+      main .container-form .div-form .input-group {
+        display: block; }
+        main .container-form .div-form .input-group div label {
+          margin-bottom: 10px; } }
+
+@media screen and (min-width: 480.9px) {
+  /*index*/
+  /*carrusel*/
+  main #div-carrusel {
+    height: 550px;
+    min-height: 450px;
+    background: no-repeat center center scroll;
+    background-size: cover; }
+  main #texto {
+    transform: translate(-15%, -15%);
+    top: 50%;
+    bottom: 0; }
+  main #sub-texto {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold; }
+    main #sub-texto b {
+      font-size: 3rem; }
+  /*footer*/
+  footer {
+    width: 100%;
+    background-color: #293642; }
+    footer .container-footer {
+      height: 200px;
+      padding: 10px 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      position: relative; }
+    footer .derechos {
+      width: 80vw;
+      margin: 5px 0;
+      text-decoration: none;
+      list-style: none;
+      color: #0080f8;
+      font-size: 1.01rem;
+      text-align: center; }
+      footer .derechos p {
+        margin-bottom: 2px; }
+      footer .derechos b {
+        margin-bottom: 2px; }
+    footer .colum-div {
+      width: 80vw;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-evenly; }
+      footer .colum-div .icon-social {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px; }
+  /*fin index*/
+  /*main nosotros*/
+  article.titulo-card {
+    margin: 15px 0; }
+    article.titulo-card .div-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      article.titulo-card .div-text .titulo-seccion, article.titulo-card .div-text .prueba-extend {
+        margin: 1.5rem 0;
+        color: #0080f8;
+        font-size: 2.5rem; }
+      article.titulo-card .div-text .tex-center {
+        text-align: center; }
+      article.titulo-card .div-text .fondo-color {
+        background-color: rgba(0, 0, 0, 0.3); }
+      article.titulo-card .div-text .text-seccion, article.titulo-card .div-text .extend-prueba {
+        margin-bottom: 1.75rem;
+        color: #00c090;
+        font-size: 1.3rem;
+        width: 90%; }
+    article.titulo-card .card-section {
+      width: 100%;
+      height: 100%;
+      padding: 1rem 1.25rem; }
+      article.titulo-card .card-section .card-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; }
+        article.titulo-card .card-section .card-container .card-flex {
+          width: 85%;
+          margin: 20px 0;
+          background: #fff;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+          article.titulo-card .card-section .card-container .card-flex .card-img {
+            filter: grayscale(0%);
+            border: 1px solid white; }
+          article.titulo-card .card-section .card-container .card-flex .card-titulo {
+            font-size: 25px;
+            color: #0080f8; }
+          article.titulo-card .card-section .card-container .card-flex #text-card {
+            font-size: 17px;
+            color: #00c090; }
+          article.titulo-card .card-section .card-container .card-flex .card-text {
+            font-style: italic;
+            font-size: 15.5px; }
+          article.titulo-card .card-section .card-container .card-flex .card-footer {
+            width: 100%; }
+          article.titulo-card .card-section .card-container .card-flex .mailto-primery a {
+            width: 100%;
+            color: #0080f8;
+            font-size: 1rem;
+            text-decoration: none; }
+  .misiones-etc {
+    margin: 15px 10px;
+    padding: 0 10px; }
+    .misiones-etc .div-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+      margin-top: 15px;
+      padding-top: 15px; }
+      .misiones-etc .div-container .titulo-misiones {
+        font-size: 2rem;
+        margin-bottom: 25px;
+        color: #00c090; }
+      .misiones-etc .div-container .anchura {
+        color: #fff;
+        font-size: 1rem;
+        width: 70%; }
+  /*fin main nosotros*/
+  /*main servicios*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.75rem 0;
+      color: #0080f8;
+      font-size: 2.4rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.3rem;
+      width: 75%; }
+  main .container-servi {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    justify-content: column; }
+    main .container-servi .servicio-list {
+      /*margin-bottom: 4rem;
+                padding-bottom: 4rem;*/
+      padding-bottom: 25px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    main .container-servi .servi-img-div {
+      text-align: center;
+      padding-bottom: 10px;
+      padding-left: 0px; }
+    main .container-servi .servi-img {
+      width: 90%;
+      border: 1px solid #fff; }
+    main .container-servi .font {
+      color: #0080f8;
+      padding: 0 15px;
+      width: 100%;
+      font-size: 26px; }
+    main .container-servi .servi-comentario {
+      text-align: center;
+      padding: 0;
+      font-size: 15px;
+      font-style: italic;
+      width: 80%;
+      color: #fff; }
+    main .container-servi .margen {
+      margin: 0; }
+  /*fin main servicios*/
+  /*main clientes*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.75rem 0;
+      color: #0080f8;
+      font-size: 2.3rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      text-align: start;
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.1rem;
+      width: 70%; }
+      main .div-text .text-seccion .color-name, main .div-text .extend-prueba .color-name {
+        color: #0080f8;
+        font-style: italic; }
+  main .clientes-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 100%; }
+    main .clientes-main .card-clientes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 40px;
+      margin-bottom: 30px;
+      padding: 20px 0;
+      width: 70%; }
+      main .clientes-main .card-clientes .cliente-img {
+        width: 150px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        margin: 0; }
+      main .clientes-main .card-clientes .card-titulo {
+        padding-left: 10px;
+        text-align: start;
+        font-size: 23px;
+        color: #0080f8; }
+      main .clientes-main .card-clientes .card-subitulo {
+        border: 1px solid rgba(0, 0, 0, 0.225);
+        background-color: rgba(0, 0, 0, 0.1);
+        padding-left: 10px;
+        text-align: start;
+        font-size: 17px;
+        color: #00c090; }
+      main .clientes-main .card-clientes .cliente-comentario {
+        padding-left: 10px;
+        text-align: start;
+        font-style: italic;
+        font-size: 15px;
+        padding-right: 20px;
+        width: 100%;
+        color: #fff; }
+  /*fin main clientes*/
+  /*main contacto*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.5rem 0;
+      color: #0080f8;
+      font-size: 2.5rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.25rem;
+      width: 90%; }
+  main .container-form {
+    margin: 15px 5px;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    main .container-form .icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0;
+      width: 100%; }
+      main .container-form .icons .ubicacion {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%; }
+        main .container-form .icons .ubicacion .correo {
+          padding-right: 18.5px;
+          text-align: center; }
+          main .container-form .icons .ubicacion .correo .iconos {
+            width: 60px; }
+          main .container-form .icons .ubicacion .correo p {
+            margin-top: 5px;
+            color: #fff;
+            font-size: 12.5px; }
+      main .container-form .icons .correo-card {
+        padding-top: 20px;
+        width: 100%; }
+        main .container-form .icons .correo-card .img-correo {
+          width: 300px;
+          background-color: #000;
+          border-radius: 60%;
+          border: 1px solid #000; }
+    main .container-form .div-form {
+      width: 420px; }
+      main .container-form .div-form .form-titulo {
+        margin-bottom: 20px;
+        font-size: 33px;
+        text-align: center;
+        color: #0080f8; }
+      main .container-form .div-form .input-group {
+        display: block; }
+        main .container-form .div-form .input-group div label {
+          margin-bottom: 10px; } }
+
+@media screen and (min-width: 719.9px) {
+  /*index*/
+  /*carrusel*/
+  main #div-carrusel {
+    height: 650px;
+    min-height: 550px;
+    background: no-repeat center center scroll;
+    background-size: cover; }
+  main #texto {
+    transform: translate(-15%, -15%);
+    top: 50%;
+    bottom: 0; }
+  main #sub-texto {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold; }
+    main #sub-texto b {
+      font-size: 3.6rem; }
+  /*footer*/
+  footer {
+    width: 100%;
+    background-color: #293642; }
+    footer .container-footer {
+      height: 200px;
+      padding: 10px 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      position: relative; }
+    footer .derechos {
+      width: 80vw;
+      margin: 5px 0;
+      text-decoration: none;
+      list-style: none;
+      color: #0080f8;
+      font-size: 1.01rem;
+      text-align: center; }
+      footer .derechos p {
+        margin-top: 5px; }
+      footer .derechos b {
+        margin-bottom: 10px; }
+    footer .colum-div {
+      width: 80vw;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-evenly;
+      /*.icon-social{
+                padding-right:10px;
+                padding-left: 10px;
+                padding-top: 10px;
+            }*/ }
+  /*fin index*/
+  /*main nostros*/
+  article.titulo-card {
+    margin: 15px 0; }
+    article.titulo-card .div-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      article.titulo-card .div-text .titulo-seccion, article.titulo-card .div-text .prueba-extend {
+        margin: 1.5rem 0;
+        color: #0080f8;
+        font-size: 2.8rem; }
+      article.titulo-card .div-text .tex-center {
+        text-align: center; }
+      article.titulo-card .div-text .fondo-color {
+        background-color: rgba(0, 0, 0, 0.3); }
+      article.titulo-card .div-text .text-seccion, article.titulo-card .div-text .extend-prueba {
+        margin-bottom: 1.75rem;
+        color: #00c090;
+        font-size: 1.5rem;
+        width: 90%; }
+    article.titulo-card .card-section {
+      width: 100%;
+      height: 100%;
+      padding: 1rem 1.25rem; }
+      article.titulo-card .card-section .card-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; }
+        article.titulo-card .card-section .card-container .card-flex {
+          width: 65%;
+          margin: 20px 0;
+          background: #fff;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+          article.titulo-card .card-section .card-container .card-flex .card-img {
+            filter: grayscale(0%);
+            border: 1px solid white; }
+          article.titulo-card .card-section .card-container .card-flex .card-titulo {
+            font-size: 27px;
+            color: #0080f8; }
+          article.titulo-card .card-section .card-container .card-flex #text-card {
+            font-size: 20px;
+            color: #00c090; }
+          article.titulo-card .card-section .card-container .card-flex .card-text {
+            font-style: italic;
+            font-size: 18px; }
+          article.titulo-card .card-section .card-container .card-flex .card-footer {
+            width: 100%; }
+            article.titulo-card .card-section .card-container .card-flex .card-footer .mailto-primery {
+              width: 100%; }
+              article.titulo-card .card-section .card-container .card-flex .card-footer .mailto-primery a {
+                color: #0080f8;
+                font-size: 1.1rem;
+                text-decoration: none; }
+  .misiones-etc {
+    margin: 15px 10px;
+    padding: 0 10px; }
+    .misiones-etc .div-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+      margin-top: 15px;
+      padding-top: 15px; }
+      .misiones-etc .div-container .titulo-misiones {
+        font-size: 2.2rem;
+        margin-bottom: 25px;
+        color: #00c090; }
+      .misiones-etc .div-container .anchura {
+        color: #fff;
+        font-size: 1.15rem;
+        width: 90%; }
+  /*fin main nosotros*/
+  /*main servicios*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.75rem 0;
+      color: #0080f8;
+      font-size: 2.7rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.6rem;
+      width: 80%; }
+  main .container-servi {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    justify-content: column; }
+    main .container-servi .servicio-list {
+      /*margin-bottom: 4rem;
+                padding-bottom: 4rem;*/
+      padding-bottom: 25px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    main .container-servi .servi-img-div {
+      text-align: center;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      padding-left: 0px; }
+    main .container-servi .servi-img {
+      border: 1px solid #fff; }
+    main .container-servi .font {
+      color: #0080f8;
+      padding: 0 15px;
+      margin-bottom: 10px;
+      width: 100%;
+      font-size: 34px; }
+    main .container-servi .servi-comentario {
+      text-align: center;
+      padding: 0;
+      font-style: italic;
+      font-size: 22px;
+      width: 80%;
+      color: #fff; }
+    main .container-servi .margen {
+      margin: 0; }
+  /*fin main servicios*/
+  /*main clientes*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.75rem 0;
+      color: #0080f8;
+      font-size: 2.5rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      text-align: start;
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.35rem;
+      width: 80%; }
+      main .div-text .text-seccion .color-name, main .div-text .extend-prueba .color-name {
+        color: #0080f8;
+        font-style: italic; }
+  main .clientes-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 100%; }
+    main .clientes-main .card-clientes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 45px;
+      margin-bottom: 80px;
+      padding: 20px 0;
+      width: 80%; }
+      main .clientes-main .card-clientes .cliente-img {
+        width: 170px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        margin: 0; }
+      main .clientes-main .card-clientes .card-titulo {
+        border: 1px solid rgba(0, 0, 0, 0.525);
+        background-color: rgba(0, 0, 0, 0.35);
+        padding-left: 10px;
+        text-align: start;
+        font-size: 27px;
+        color: #0080f8; }
+      main .clientes-main .card-clientes .card-subitulo {
+        border: 1px solid rgba(0, 0, 0, 0.225);
+        background-color: rgba(0, 0, 0, 0.1);
+        padding-left: 10px;
+        text-align: start;
+        font-size: 21px;
+        color: #00c090; }
+      main .clientes-main .card-clientes .cliente-comentario {
+        padding-left: 10px;
+        text-align: start;
+        font-style: italic;
+        font-size: 19.5px;
+        padding-right: 20px;
+        width: 100%;
+        color: #fff; }
+  /*fin main clientes*/
+  /*main contacto*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.5rem 0;
+      color: #0080f8;
+      font-size: 2.65rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.4rem;
+      width: 80%; }
+  main .container-form {
+    margin: 15px 5px;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    main .container-form .icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0;
+      width: 100%; }
+      main .container-form .icons .ubicacion {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%; }
+        main .container-form .icons .ubicacion .correo {
+          padding-right: 0;
+          margin-right: 25px;
+          text-align: center; }
+          main .container-form .icons .ubicacion .correo .iconos {
+            width: 65px; }
+          main .container-form .icons .ubicacion .correo p {
+            margin-top: 5px;
+            color: #fff;
+            font-size: 15.5px; }
+      main .container-form .icons .correo-card {
+        padding-top: 20px;
+        width: 100%; }
+        main .container-form .icons .correo-card .img-correo {
+          width: 350px;
+          background-color: #000;
+          border-radius: 50%;
+          border: 1px solid #000; }
+    main .container-form .div-form {
+      width: 600px; }
+      main .container-form .div-form .form-titulo {
+        margin-bottom: 20px;
+        font-size: 40px;
+        text-align: center;
+        color: #0080f8; }
+      main .container-form .div-form .input-group {
+        display: block; }
+        main .container-form .div-form .input-group div label {
+          margin-bottom: 10px; } }
+
+@media screen and (min-width: 1019.9px) {
+  /*index*/
+  /*carrusel*/
+  main #div-carrusel {
+    height: 650px;
+    min-height: 550px;
+    background: no-repeat center center scroll;
+    background-size: cover; }
+  main #texto {
+    transform: translate(-15%, -15%);
+    top: 50%;
+    bottom: 0; }
+  main #sub-texto {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold; }
+    main #sub-texto b {
+      font-size: 3.6rem; }
+  /*footer*/
+  footer {
+    width: 100%;
+    background-color: #293642; }
+    footer .container-footer {
+      width: 100%;
+      height: 150px;
+      padding: 10px 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative; }
+    footer .derechos {
+      width: 30vw;
+      margin: 5px 0;
+      text-decoration: none;
+      list-style: none;
+      color: #0080f8;
+      text-align: center; }
+      footer .derechos b {
+        font-size: 1.1rem;
+        margin-bottom: 10px; }
+      footer .derechos p {
+        font-size: 1.15rem;
+        margin-top: 5px; }
+    footer .colum-div {
+      width: 35vw;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-evenly; }
+      footer .colum-div .icon-social {
+        width: 50px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 0px; }
+  /*fin main nosotros*/
+  article.titulo-card {
+    margin: 15px 0; }
+    article.titulo-card .div-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      article.titulo-card .div-text .titulo-seccion, article.titulo-card .div-text .prueba-extend {
+        margin: 1.5rem 0;
+        color: #0080f8;
+        font-size: 3rem; }
+      article.titulo-card .div-text .tex-center {
+        text-align: center; }
+      article.titulo-card .div-text .fondo-color {
+        background-color: rgba(0, 0, 0, 0.3); }
+      article.titulo-card .div-text .text-seccion, article.titulo-card .div-text .extend-prueba {
+        margin-bottom: 1.75rem;
+        color: #00c090;
+        font-size: 2rem;
+        width: 80%; }
+    article.titulo-card .card-section {
+      width: 100%;
+      height: 100%;
+      padding: 1rem 1.25rem; }
+      article.titulo-card .card-section .card-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; }
+        article.titulo-card .card-section .card-container .card-flex {
+          width: 60%;
+          margin: 20px 0;
+          background: #fff;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+          article.titulo-card .card-section .card-container .card-flex .card-img {
+            width: 100%;
+            filter: grayscale(0%);
+            border: 1px solid white; }
+          article.titulo-card .card-section .card-container .card-flex .card-img:hover {
+            transition: .6s;
+            filter: none; }
+          article.titulo-card .card-section .card-container .card-flex .card-body {
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; }
+          article.titulo-card .card-section .card-container .card-flex .card-titulo {
+            font-size: 30px;
+            color: #0080f8; }
+          article.titulo-card .card-section .card-container .card-flex #text-card {
+            font-size: 24px;
+            color: #00c090; }
+          article.titulo-card .card-section .card-container .card-flex .card-text {
+            font-size: 23px;
+            font-style: italic; }
+          article.titulo-card .card-section .card-container .card-flex .card-footer {
+            width: 100%; }
+            article.titulo-card .card-section .card-container .card-flex .card-footer .mailto-primery {
+              width: 100%; }
+              article.titulo-card .card-section .card-container .card-flex .card-footer .mailto-primery a {
+                color: #0080f8;
+                font-size: 19px;
+                text-decoration: none; }
+  .misiones-etc {
+    margin: 15px 10px;
+    padding: 0 10px; }
+    .misiones-etc .div-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+      margin-top: 15px;
+      padding-top: 15px; }
+      .misiones-etc .div-container .titulo-misiones {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+        color: #00c090; }
+      .misiones-etc .div-container .anchura {
+        color: #fff;
+        font-size: 1.35rem;
+        width: 70%; }
+  /*main servicios*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.75rem 0;
+      color: #0080f8;
+      font-size: 2.7rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.7rem;
+      width: 80%; }
+  main .container-servi {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    justify-content: column; }
+    main .container-servi .servicio-list {
+      /*margin-bottom: 4rem;
+                padding-bottom: 4rem;*/
+      padding-bottom: 25px;
+      margin-bottom: 4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    main .container-servi .servi-img-div {
+      text-align: center;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      padding-left: 0px; }
+    main .container-servi .servi-img {
+      border: 1px solid #fff; }
+    main .container-servi .font {
+      color: #0080f8;
+      padding: 0 15px;
+      margin-bottom: 10px;
+      width: 100%;
+      font-size: 40px; }
+    main .container-servi .servi-comentario {
+      text-align: center;
+      padding: 0;
+      font-style: italic;
+      font-size: 25px;
+      width: 70%;
+      color: #fff; }
+    main .container-servi .margen {
+      margin-bottom: 30px; }
+  /*fin main servicios*/
+  /*main clientes*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.75rem 0;
+      color: #0080f8;
+      font-size: 2.7rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      text-align: start;
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.45rem;
+      width: 850px; }
+      main .div-text .text-seccion .color-name, main .div-text .extend-prueba .color-name {
+        color: #0080f8;
+        font-style: italic; }
+  main .clientes-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    width: 95%; }
+    main .clientes-main .card-clientes {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 45px;
+      margin-bottom: 80px;
+      padding: 20px 0;
+      width: 900px; }
+      main .clientes-main .card-clientes .cliente-img {
+        width: 175px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        margin-right: 30px;
+        margin-left: 20px; }
+      main .clientes-main .card-clientes .card-titulo {
+        width: 600px;
+        border: 1px solid rgba(0, 0, 0, 0.525);
+        background-color: rgba(0, 0, 0, 0.35);
+        padding-left: 10px;
+        text-align: start;
+        font-size: 28px;
+        color: #0080f8; }
+      main .clientes-main .card-clientes .card-subitulo {
+        width: 600px;
+        border: 1px solid rgba(0, 0, 0, 0.225);
+        background-color: rgba(0, 0, 0, 0.1);
+        padding-left: 10px;
+        text-align: start;
+        font-size: 22px;
+        color: #00c090; }
+      main .clientes-main .card-clientes .cliente-comentario {
+        padding-left: 10px;
+        text-align: start;
+        font-style: italic;
+        font-size: 20px;
+        padding-right: 21.5px;
+        width: 650px;
+        color: #fff; }
+  /*fin main clientes*/
+  /*main contacto*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.5rem 0;
+      color: #0080f8;
+      font-size: 2.8rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.55rem;
+      width: 850px; }
+  main .container-form {
+    margin: 15px 30px;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .container-form .icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0;
+      width: 100%; }
+      main .container-form .icons .ubicacion {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%; }
+        main .container-form .icons .ubicacion .correo {
+          padding-right: 0;
+          margin-right: 50px;
+          text-align: center; }
+          main .container-form .icons .ubicacion .correo .iconos {
+            width: 70px; }
+          main .container-form .icons .ubicacion .correo p {
+            margin-top: 5px;
+            color: #fff;
+            font-size: 15.5px; }
+      main .container-form .icons .correo-card {
+        padding-top: 20px;
+        width: 100%; }
+        main .container-form .icons .correo-card .img-correo {
+          width: 400px;
+          background-color: #000;
+          border-radius: 50%;
+          border: 1px solid #000; }
+    main .container-form .div-form {
+      width: 850px; }
+      main .container-form .div-form .form-titulo {
+        margin-bottom: 20px;
+        font-size: 40px;
+        text-align: center;
+        color: #0080f8; }
+      main .container-form .div-form .input-group {
+        display: block; }
+        main .container-form .div-form .input-group div label {
+          margin-bottom: 10px; } }
+
+@media screen and (min-width: 1279.9px) {
+  /*index*/
+  /*carrusel*/
+  main #div-carrusel {
+    height: 650px;
+    min-height: 550px;
+    background: no-repeat center center scroll;
+    background-size: cover; }
+  main #texto {
+    transform: translate(-15%, -15%);
+    top: 50%;
+    bottom: 0; }
+  main #sub-texto {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold; }
+    main #sub-texto b {
+      font-size: 3.6rem; }
+  /*footer*/
+  footer {
+    width: 100%;
+    background-color: #293642; }
+    footer .container-footer {
+      height: 150px;
+      padding: 10px 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative; }
+    footer .derechos {
+      width: 40vw;
+      margin: 5px 0;
+      text-decoration: none;
+      list-style: none;
+      color: #0080f8;
+      font-size: 1.1rem;
+      text-align: center; }
+      footer .derechos p {
+        margin-top: 5px; }
+      footer .derechos b {
+        margin-bottom: 10px; }
+    footer .colum-div {
+      width: 30vw;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      /*.icon-social{
+                padding-right:10px;
+                padding-left: 10px;
+                padding-top: 10px;
+            }*/ }
+  /*fin index*/
+  /*main nosotros*/
+  article.titulo-card {
+    margin: 15px 0; }
+    article.titulo-card .div-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      article.titulo-card .div-text .titulo-seccion, article.titulo-card .div-text .prueba-extend {
+        margin: 1.5rem 0;
+        color: #0080f8;
+        font-size: 3rem; }
+      article.titulo-card .div-text .tex-center {
+        text-align: center; }
+      article.titulo-card .div-text .fondo-color {
+        background-color: rgba(0, 0, 0, 0.3); }
+      article.titulo-card .div-text .text-seccion, article.titulo-card .div-text .extend-prueba {
+        margin-bottom: 1.75rem;
+        color: #00c090;
+        font-size: 1.5rem;
+        width: 65%; }
+    article.titulo-card .card-section {
+      width: 100%;
+      height: 100%;
+      padding: 1rem 1.25rem; }
+      article.titulo-card .card-section .card-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around; }
+        article.titulo-card .card-section .card-container .card-flex {
+          width: 20%;
+          margin: 20px 0;
+          background: #fff;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+          article.titulo-card .card-section .card-container .card-flex .card-img {
+            width: 100%;
+            filter: grayscale(100%);
+            border: 1px solid white; }
+          article.titulo-card .card-section .card-container .card-flex .card-img:hover {
+            transition: .6s;
+            filter: none; }
+          article.titulo-card .card-section .card-container .card-flex .card-body {
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; }
+          article.titulo-card .card-section .card-container .card-flex .card-titulo {
+            font-size: 24px;
+            color: #0080f8; }
+          article.titulo-card .card-section .card-container .card-flex #text-card {
+            width: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.125);
+            background-color: rgba(0, 0, 0, 0.03);
+            font-size: 17px;
+            color: #00c090; }
+          article.titulo-card .card-section .card-container .card-flex .card-text {
+            font-size: 16px;
+            font-style: italic; }
+          article.titulo-card .card-section .card-container .card-flex .card-footer {
+            width: 100%; }
+          article.titulo-card .card-section .card-container .card-flex .mailto-primery a {
+            color: #0080f8;
+            font-size: 1.0rem;
+            text-decoration: none; }
+  .misiones-etc {
+    margin: 15px 10px;
+    padding: 0 10px; }
+    .misiones-etc .div-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+      margin-top: 15px;
+      padding-top: 15px; }
+      .misiones-etc .div-container .titulo-misiones {
+        font-size: 2.4rem;
+        margin-bottom: 30px;
+        color: #00c090; }
+      .misiones-etc .div-container .anchura {
+        color: #fff;
+        font-size: 1.25rem;
+        width: 50%; }
+  /*fin main nosotros*/
+  /*main servicios*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.75rem 0;
+      color: #0080f8;
+      font-size: 2.7rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.7rem;
+      width: 80%; }
+  main .container-servi {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    justify-content: column; }
+    main .container-servi .servicio-list {
+      /*margin-bottom: 4rem;
+                padding-bottom: 4rem;*/
+      padding-bottom: 25px;
+      margin-bottom: 4rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center; }
+    main .container-servi .servi-img-div {
+      text-align: center;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      padding-left: 0px; }
+    main .container-servi .servi-img {
+      width: 95%;
+      border: 1px solid #fff; }
+    main .container-servi .font {
+      color: #0080f8;
+      padding: 0 15px;
+      margin-bottom: 10px;
+      width: 260px;
+      font-size: 26px; }
+    main .container-servi .servi-comentario {
+      text-align: start;
+      padding: 0;
+      font-style: italic;
+      font-size: 17px;
+      width: 480px;
+      color: #fff; }
+    main .container-servi .margen {
+      margin-bottom: 30px; }
+  /*fin main servicios*/
+  /*main clientes*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.75rem 0;
+      color: #0080f8;
+      font-size: 2.8rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      text-align: start;
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.50rem;
+      width: 950px; }
+      main .div-text .text-seccion .color-name, main .div-text .extend-prueba .color-name {
+        color: #0080f8;
+        font-style: italic; }
+  main .clientes-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    width: 100%; }
+    main .clientes-main .card-clientes {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 60px;
+      margin-bottom: 100px;
+      padding: 20px 0;
+      width: 1100px; }
+      main .clientes-main .card-clientes .cliente-img {
+        width: 200px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-left: 20px; }
+      main .clientes-main .card-clientes .card-titulo {
+        border: 1px solid rgba(0, 0, 0, 0.525);
+        background-color: rgba(0, 0, 0, 0.35);
+        padding-left: 10px;
+        text-align: start;
+        font-size: 30px;
+        color: #0080f8; }
+      main .clientes-main .card-clientes .card-subitulo {
+        border: 1px solid rgba(0, 0, 0, 0.225);
+        background-color: rgba(0, 0, 0, 0.1);
+        padding-left: 10px;
+        text-align: start;
+        font-size: 21.5px;
+        color: #00c090; }
+      main .clientes-main .card-clientes .cliente-comentario {
+        padding-left: 10px;
+        text-align: start;
+        font-style: italic;
+        font-size: 20px;
+        padding-right: 22.5px;
+        width: 650px;
+        color: #fff; }
+  /*fin main clientes*/
+  /*main contacto*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.5rem 0;
+      color: #0080f8;
+      font-size: 2.8rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.55rem;
+      width: 850px; }
+  main .container-form {
+    margin: 15px 20px;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; }
+    main .container-form .icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      margin-right: 0;
+      width: 90%;
+      max-width: 850px; }
+      main .container-form .icons .ubicacion {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%; }
+        main .container-form .icons .ubicacion .correo {
+          padding-right: 0;
+          margin-right: 50px;
+          text-align: center; }
+          main .container-form .icons .ubicacion .correo .iconos {
+            width: 70px; }
+          main .container-form .icons .ubicacion .correo p {
+            margin-top: 5px;
+            color: #fff;
+            font-size: 15px; }
+      main .container-form .icons .correo-card {
+        padding-top: 20px;
+        width: 100%; }
+        main .container-form .icons .correo-card .img-correo {
+          width: 400px;
+          background-color: #000;
+          border-radius: 50%;
+          border: 1px solid #000; }
+    main .container-form .div-form {
+      width: 100%;
+      max-width: 880px; }
+      main .container-form .div-form .form-titulo {
+        margin-bottom: 20px;
+        font-size: 45px;
+        text-align: center;
+        color: #0080f8; }
+      main .container-form .div-form .input-group {
+        display: block; }
+        main .container-form .div-form .input-group div label {
+          margin-bottom: 10px; } }
+
+@media screen and (min-width: 1439.9px) {
+  /*main servicios*/
+  main .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+      margin: 1.75rem 0;
+      color: #0080f8;
+      font-size: 2.7rem; }
+    main .div-text .tex-center {
+      text-align: center; }
+    main .div-text .fondo-color {
+      background-color: rgba(0, 0, 0, 0.3); }
+    main .div-text .text-seccion, main .div-text .extend-prueba {
+      margin-bottom: 1.75rem;
+      color: #00c090;
+      font-size: 1.7rem;
+      width: 80%; }
+  main .container-servi {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    justify-content: column; }
+    main .container-servi .servicio-list {
+      margin-bottom: 4rem;
+      padding-bottom: 4rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center; }
+    main .container-servi .servi-img-div {
+      text-align: center;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      padding-left: 0px; }
+    main .container-servi .servi-img {
+      border: 1px solid #fff; }
+    main .container-servi .font {
+      color: #0080f8;
+      padding: 0 25px;
+      margin-bottom: 10px;
+      width: 300px;
+      font-size: 30px; }
+    main .container-servi .servi-comentario {
+      text-align: start;
+      padding: 0;
+      font-style: italic;
+      font-size: 19px;
+      width: 575px;
+      color: #fff; }
+    main .container-servi .margen {
+      margin-bottom: 30px; } }
+
+/*comienza mixin*/
+/*SECCIONES MISIONES, VALORES NOSOTROS MAIN*/
+.div-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px; }
+
+/*LLAMADO DE MIXIN EN SERVICIOS.HTML MAIN*/
+.container-servi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3rem; }
+
+/*LLAMADO DE MIXIN EN CLIENTES.HTML MAIN*/
+.clientes-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%; }
+
+.titulo-seccion, .prueba-extend {
+  margin: 1.75rem 0;
+  color: #0080f8;
+  font-size: 2.8rem; }
+
+.text-seccion, .extend-prueba {
+  margin-bottom: 1.75rem;
+  color: #00c090;
+  font-size: 1.5rem;
+  width: 70%; }
