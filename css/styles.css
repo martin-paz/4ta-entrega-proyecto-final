@@ -27,26 +27,32 @@ nav #color {
   font-size: 1.4rem; }
 
 nav #B {
-  color: #05b388ec; }
+  color: #05b388; }
 
 nav #color-it {
-  color: #05b388ec; }
+  color: #05b388; }
 
 nav .navbar-collapse {
   justify-content: flex-end; }
 
 nav #li a {
   font-size: 1.4rem;
-  color: #05b388ec; }
+  color: #05b388; }
 
 nav #li a:hover {
+  color: #0080f8; }
+
+nav #li a:focus {
+  color: #0080f8; }
+
+nav #li a:active {
   color: #0080f8; }
 
 html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate {
   transform: translateZ(0); }
 
 html:not(.no-js) [data-aos=fade-right] {
-  transform: translate3d(40px, 0, 0); }
+  transform: translate3d(-40px, 0, 0); }
 
 html:not(.no-js) [data-aos=fade-left] {
   transform: translate3d(40px, 0, 0); }
@@ -56,8 +62,8 @@ html:not(.no-js) [data-aos=fade-left] {
   /*index*/
   /*carrusel*/
   main #div-carrusel {
-    height: 450px;
-    min-height: 350px;
+    height: 430px;
+    min-height: 330px;
     background: no-repeat center center scroll;
     background-size: cover; }
   main #texto {
@@ -65,7 +71,8 @@ html:not(.no-js) [data-aos=fade-left] {
     top: 50%;
     bottom: 0; }
   main #sub-texto {
-    color: #ffffff;
+    text-shadow: 0px 4px 3px black;
+    color: #fff;
     font-size: 1rem;
     font-weight: bold; }
     main #sub-texto b {
@@ -79,9 +86,8 @@ html:not(.no-js) [data-aos=fade-left] {
       padding: 10px 10px;
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
       align-items: center;
-      position: relative; }
+      justify-content: space-evenly; }
     footer .derechos {
       margin: 5px 0;
       text-decoration: none;
@@ -100,13 +106,13 @@ html:not(.no-js) [data-aos=fade-left] {
       position: relative;
       display: flex;
       flex-direction: row;
-      align-content: center;
+      align-items: center;
       justify-content: space-evenly; }
       footer .colum-div .icon-social {
-        width: 75px;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 10px; }
+        width: 38px;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 0; }
   /*fin index*/
   /*main nosotros*/
   article.titulo-card {
@@ -116,17 +122,16 @@ html:not(.no-js) [data-aos=fade-left] {
       flex-direction: column;
       align-items: center;
       justify-content: center; }
-      article.titulo-card .div-text .titulo-seccion, article.titulo-card .div-text .prueba-extend {
+      article.titulo-card .div-text .titulo-seccion {
         margin: 1.5rem 0;
         color: #0080f8;
-        font-size: 2.5rem; }
+        font-size: 2.5rem;
+        font-weight: bold; }
       article.titulo-card .div-text .tex-center {
         text-align: center; }
-      article.titulo-card .div-text .fondo-color {
-        background-color: rgba(0, 0, 0, 0.3); }
-      article.titulo-card .div-text .text-seccion, article.titulo-card .div-text .extend-prueba {
+      article.titulo-card .div-text .text-seccion {
         margin-bottom: 1.75rem;
-        color: #00c090;
+        color: #05b388;
         font-size: 1.2rem;
         width: 90%; }
     article.titulo-card .card-section {
@@ -150,13 +155,13 @@ html:not(.no-js) [data-aos=fade-left] {
           justify-content: center; }
           article.titulo-card .card-section .card-container .card-flex .card-img {
             filter: grayscale(0%);
-            border: 1px solid white; }
+            border: 1px solid #fff; }
           article.titulo-card .card-section .card-container .card-flex .card-titulo {
             font-size: 24px;
             color: #0080f8; }
           article.titulo-card .card-section .card-container .card-flex #text-card {
             font-size: 16px;
-            color: #00c090; }
+            color: #05b388; }
           article.titulo-card .card-section .card-container .card-flex .card-text {
             font-style: italic;
             font-size: 14.5px; }
@@ -179,9 +184,10 @@ html:not(.no-js) [data-aos=fade-left] {
       margin-top: 15px;
       padding-top: 15px; }
       .misiones-etc .div-container .titulo-misiones {
+        text-shadow: 0px 4px 3px black;
         font-size: 1.9rem;
         margin-bottom: 25px;
-        color: #00c090; }
+        color: #05b388; }
       .misiones-etc .div-container .anchura {
         color: #fff;
         font-size: .8rem;
@@ -193,19 +199,22 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.5rem 0;
       color: #0080f8;
-      font-size: 2.5rem; }
+      font-size: 2.5rem;
+      font-weight: bold; }
+      main .div-text .titulo-seccion span {
+        text-shadow: 0px 4px 3px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.2rem;
       width: 90%; }
+      main .div-text .text-seccion span {
+        text-shadow: 0px 4px 3px black; }
   main .container-servi {
     width: 100%;
     margin-top: 3rem;
@@ -228,6 +237,8 @@ html:not(.no-js) [data-aos=fade-left] {
       width: 80%;
       border: 1px solid #fff; }
     main .container-servi .font {
+      text-shadow: 0px 3px 1px black;
+      font-weight: 600;
       color: #0080f8;
       padding: 0 15px;
       width: 275px;
@@ -248,21 +259,25 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.75rem 0;
       color: #0080f8;
-      font-size: 2.2rem; }
+      font-size: 2.2rem;
+      font-weight: bold; }
+      main .div-text .titulo-seccion span {
+        text-shadow: 0px 4px 3px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 0px 4px 1px black;
       text-align: start;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.05rem;
       width: 90%; }
-      main .div-text .text-seccion .color-name, main .div-text .extend-prueba .color-name {
+      main .div-text .text-seccion span {
+        text-shadow: 0px 4px 3px black; }
+      main .div-text .text-seccion .color-name {
         color: #0080f8;
         font-style: italic; }
   main .clientes-main {
@@ -288,17 +303,18 @@ html:not(.no-js) [data-aos=fade-left] {
         border-radius: 50%;
         margin: 0; }
       main .clientes-main .card-clientes .card-titulo {
+        background-color: rgba(0, 0, 0, 0.4);
         padding-left: 10px;
         text-align: start;
         font-size: 20px;
         color: #0080f8; }
       main .clientes-main .card-clientes .card-subitulo {
         border: 1px solid rgba(0, 0, 0, 0.225);
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: rgba(0, 0, 0, 0.2);
         padding-left: 10px;
         text-align: start;
         font-size: 16px;
-        color: #00c090; }
+        color: #05b388; }
       main .clientes-main .card-clientes .cliente-comentario {
         padding-left: 10px;
         text-align: start;
@@ -314,19 +330,23 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.5rem 0;
       color: #0080f8;
-      font-size: 2.5rem; }
+      font-size: 2.5rem;
+      font-weight: bold; }
+      main .div-text .titulo-seccion span {
+        text-shadow: 0px 4px 3px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.2rem;
       width: 90%; }
+      main .div-text .text-seccion span {
+        text-shadow: 0px 4px 3px black; }
   main .container-form {
     margin: 15px 10px;
     padding: 10px 10px;
@@ -367,6 +387,7 @@ html:not(.no-js) [data-aos=fade-left] {
     main .container-form .div-form {
       width: 95%; }
       main .container-form .div-form .form-titulo {
+        text-shadow: 0px 4px 3px black;
         margin-top: 20px;
         margin-bottom: 10px;
         font-size: 30px;
@@ -381,8 +402,8 @@ html:not(.no-js) [data-aos=fade-left] {
   /*index*/
   /*carrusel*/
   main #div-carrusel {
-    height: 550px;
-    min-height: 450px;
+    height: 470px;
+    min-height: 370px;
     background: no-repeat center center scroll;
     background-size: cover; }
   main #texto {
@@ -390,7 +411,7 @@ html:not(.no-js) [data-aos=fade-left] {
     top: 50%;
     bottom: 0; }
   main #sub-texto {
-    color: #ffffff;
+    color: #fff;
     font-size: 1.2rem;
     font-weight: bold; }
     main #sub-texto b {
@@ -404,11 +425,11 @@ html:not(.no-js) [data-aos=fade-left] {
       padding: 10px 10px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-evenly;
       position: relative; }
     footer .derechos {
-      width: 80vw;
+      width: 40vw;
       margin: 5px 0;
       text-decoration: none;
       list-style: none;
@@ -420,16 +441,17 @@ html:not(.no-js) [data-aos=fade-left] {
       footer .derechos b {
         margin-bottom: 2px; }
     footer .colum-div {
-      width: 80vw;
+      width: 40vw;
       position: relative;
       display: flex;
       flex-direction: row;
-      align-content: center;
+      align-items: center;
       justify-content: space-evenly; }
       footer .colum-div .icon-social {
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 10px; }
+        width: 40px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 0px; }
   /*fin index*/
   /*main nosotros*/
   article.titulo-card {
@@ -439,17 +461,16 @@ html:not(.no-js) [data-aos=fade-left] {
       flex-direction: column;
       align-items: center;
       justify-content: center; }
-      article.titulo-card .div-text .titulo-seccion, article.titulo-card .div-text .prueba-extend {
+      article.titulo-card .div-text .titulo-seccion {
         margin: 1.5rem 0;
         color: #0080f8;
         font-size: 2.5rem; }
       article.titulo-card .div-text .tex-center {
         text-align: center; }
-      article.titulo-card .div-text .fondo-color {
-        background-color: rgba(0, 0, 0, 0.3); }
-      article.titulo-card .div-text .text-seccion, article.titulo-card .div-text .extend-prueba {
+      article.titulo-card .div-text .text-seccion {
+        text-shadow: 4px 0px 0px black;
         margin-bottom: 1.75rem;
-        color: #00c090;
+        color: #05b388;
         font-size: 1.3rem;
         width: 90%; }
     article.titulo-card .card-section {
@@ -473,13 +494,13 @@ html:not(.no-js) [data-aos=fade-left] {
           justify-content: center; }
           article.titulo-card .card-section .card-container .card-flex .card-img {
             filter: grayscale(0%);
-            border: 1px solid white; }
+            border: 1px solid #fff; }
           article.titulo-card .card-section .card-container .card-flex .card-titulo {
             font-size: 25px;
             color: #0080f8; }
           article.titulo-card .card-section .card-container .card-flex #text-card {
             font-size: 17px;
-            color: #00c090; }
+            color: #05b388; }
           article.titulo-card .card-section .card-container .card-flex .card-text {
             font-style: italic;
             font-size: 15.5px; }
@@ -504,7 +525,7 @@ html:not(.no-js) [data-aos=fade-left] {
       .misiones-etc .div-container .titulo-misiones {
         font-size: 2rem;
         margin-bottom: 25px;
-        color: #00c090; }
+        color: #05b388; }
       .misiones-etc .div-container .anchura {
         color: #fff;
         font-size: 1rem;
@@ -516,17 +537,16 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.75rem 0;
       color: #0080f8;
       font-size: 2.4rem; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.3rem;
       width: 75%; }
   main .container-servi {
@@ -537,8 +557,8 @@ html:not(.no-js) [data-aos=fade-left] {
     align-items: column;
     justify-content: column; }
     main .container-servi .servicio-list {
-      /*margin-bottom: 4rem;
-                padding-bottom: 4rem;*/
+      margin-bottom: 0;
+      padding-bottom: 0;
       padding-bottom: 25px;
       margin-bottom: 30px;
       display: flex;
@@ -553,6 +573,8 @@ html:not(.no-js) [data-aos=fade-left] {
       width: 90%;
       border: 1px solid #fff; }
     main .container-servi .font {
+      text-shadow: 0px 4px 1px black;
+      font-weight: 600;
       color: #0080f8;
       padding: 0 15px;
       width: 100%;
@@ -573,21 +595,20 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.75rem 0;
       color: #0080f8;
       font-size: 2.3rem; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       text-align: start;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.1rem;
       width: 70%; }
-      main .div-text .text-seccion .color-name, main .div-text .extend-prueba .color-name {
+      main .div-text .text-seccion .color-name {
         color: #0080f8;
         font-style: italic; }
   main .clientes-main {
@@ -623,7 +644,7 @@ html:not(.no-js) [data-aos=fade-left] {
         padding-left: 10px;
         text-align: start;
         font-size: 17px;
-        color: #00c090; }
+        color: #05b388; }
       main .clientes-main .card-clientes .cliente-comentario {
         padding-left: 10px;
         text-align: start;
@@ -639,17 +660,15 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.5rem 0;
       color: #0080f8;
       font-size: 2.5rem; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.25rem;
       width: 90%; }
   main .container-form {
@@ -705,8 +724,8 @@ html:not(.no-js) [data-aos=fade-left] {
   /*index*/
   /*carrusel*/
   main #div-carrusel {
-    height: 650px;
-    min-height: 550px;
+    height: 500px;
+    min-height: 400px;
     background: no-repeat center center scroll;
     background-size: cover; }
   main #texto {
@@ -714,7 +733,7 @@ html:not(.no-js) [data-aos=fade-left] {
     top: 50%;
     bottom: 0; }
   main #sub-texto {
-    color: #ffffff;
+    color: #fff;
     font-size: 1.5rem;
     font-weight: bold; }
     main #sub-texto b {
@@ -728,11 +747,11 @@ html:not(.no-js) [data-aos=fade-left] {
       padding: 10px 10px;
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
       align-items: center;
+      justify-content: space-evenly;
       position: relative; }
     footer .derechos {
-      width: 80vw;
+      width: 40vw;
       margin: 5px 0;
       text-decoration: none;
       list-style: none;
@@ -744,17 +763,17 @@ html:not(.no-js) [data-aos=fade-left] {
       footer .derechos b {
         margin-bottom: 10px; }
     footer .colum-div {
-      width: 80vw;
+      width: 40vw;
       position: relative;
       display: flex;
       flex-direction: row;
-      align-content: center;
-      justify-content: space-evenly;
-      /*.icon-social{
-                padding-right:10px;
-                padding-left: 10px;
-                padding-top: 10px;
-            }*/ }
+      align-items: center;
+      justify-content: space-evenly; }
+      footer .colum-div .icon-social {
+        width: 45px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 0px; }
   /*fin index*/
   /*main nostros*/
   article.titulo-card {
@@ -764,17 +783,17 @@ html:not(.no-js) [data-aos=fade-left] {
       flex-direction: column;
       align-items: center;
       justify-content: center; }
-      article.titulo-card .div-text .titulo-seccion, article.titulo-card .div-text .prueba-extend {
+      article.titulo-card .div-text .titulo-seccion {
         margin: 1.5rem 0;
         color: #0080f8;
-        font-size: 2.8rem; }
+        font-size: 2.8rem;
+        text-shadow: 4px 0px 0px black; }
       article.titulo-card .div-text .tex-center {
         text-align: center; }
-      article.titulo-card .div-text .fondo-color {
-        background-color: rgba(0, 0, 0, 0.3); }
-      article.titulo-card .div-text .text-seccion, article.titulo-card .div-text .extend-prueba {
+      article.titulo-card .div-text .text-seccion {
+        text-shadow: 4px 0px 0px black;
         margin-bottom: 1.75rem;
-        color: #00c090;
+        color: #05b388;
         font-size: 1.5rem;
         width: 90%; }
     article.titulo-card .card-section {
@@ -804,7 +823,7 @@ html:not(.no-js) [data-aos=fade-left] {
             color: #0080f8; }
           article.titulo-card .card-section .card-container .card-flex #text-card {
             font-size: 20px;
-            color: #00c090; }
+            color: #05b388; }
           article.titulo-card .card-section .card-container .card-flex .card-text {
             font-style: italic;
             font-size: 18px; }
@@ -830,7 +849,7 @@ html:not(.no-js) [data-aos=fade-left] {
       .misiones-etc .div-container .titulo-misiones {
         font-size: 2.2rem;
         margin-bottom: 25px;
-        color: #00c090; }
+        color: #05b388; }
       .misiones-etc .div-container .anchura {
         color: #fff;
         font-size: 1.15rem;
@@ -842,17 +861,17 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.75rem 0;
       color: #0080f8;
-      font-size: 2.7rem; }
+      font-size: 2.7rem;
+      text-shadow: 4px 0px 0px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.6rem;
       width: 80%; }
   main .container-servi {
@@ -879,6 +898,8 @@ html:not(.no-js) [data-aos=fade-left] {
     main .container-servi .servi-img {
       border: 1px solid #fff; }
     main .container-servi .font {
+      text-shadow: 0px 4px 1px black;
+      font-weight: 700;
       color: #0080f8;
       padding: 0 15px;
       margin-bottom: 10px;
@@ -900,21 +921,21 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.75rem 0;
       color: #0080f8;
-      font-size: 2.5rem; }
+      font-size: 2.5rem;
+      text-shadow: 4px 0px 0px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       text-align: start;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.35rem;
       width: 80%; }
-      main .div-text .text-seccion .color-name, main .div-text .extend-prueba .color-name {
+      main .div-text .text-seccion .color-name {
         color: #0080f8;
         font-style: italic; }
   main .clientes-main {
@@ -948,11 +969,11 @@ html:not(.no-js) [data-aos=fade-left] {
         color: #0080f8; }
       main .clientes-main .card-clientes .card-subitulo {
         border: 1px solid rgba(0, 0, 0, 0.225);
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: rgba(0, 0, 0, 0.2);
         padding-left: 10px;
         text-align: start;
         font-size: 21px;
-        color: #00c090; }
+        color: #05b388; }
       main .clientes-main .card-clientes .cliente-comentario {
         padding-left: 10px;
         text-align: start;
@@ -968,17 +989,17 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.5rem 0;
       color: #0080f8;
-      font-size: 2.65rem; }
+      font-size: 2.65rem;
+      text-shadow: 4px 0px 0px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.4rem;
       width: 80%; }
   main .container-form {
@@ -1035,8 +1056,8 @@ html:not(.no-js) [data-aos=fade-left] {
   /*index*/
   /*carrusel*/
   main #div-carrusel {
-    height: 650px;
-    min-height: 550px;
+    height: 530px;
+    min-height: 430px;
     background: no-repeat center center scroll;
     background-size: cover; }
   main #texto {
@@ -1044,7 +1065,7 @@ html:not(.no-js) [data-aos=fade-left] {
     top: 50%;
     bottom: 0; }
   main #sub-texto {
-    color: #ffffff;
+    color: #fff;
     font-size: 1.5rem;
     font-weight: bold; }
     main #sub-texto b {
@@ -1059,8 +1080,8 @@ html:not(.no-js) [data-aos=fade-left] {
       padding: 10px 10px;
       display: flex;
       flex-direction: row;
-      justify-content: flex-end;
       align-items: center;
+      justify-content: flex-end;
       position: relative; }
     footer .derechos {
       width: 30vw;
@@ -1080,6 +1101,10 @@ html:not(.no-js) [data-aos=fade-left] {
       position: relative;
       display: flex;
       flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      display: flex;
+      flex-direction: row;
       align-content: center;
       justify-content: space-evenly; }
       footer .colum-div .icon-social {
@@ -1095,17 +1120,17 @@ html:not(.no-js) [data-aos=fade-left] {
       flex-direction: column;
       align-items: center;
       justify-content: center; }
-      article.titulo-card .div-text .titulo-seccion, article.titulo-card .div-text .prueba-extend {
+      article.titulo-card .div-text .titulo-seccion {
         margin: 1.5rem 0;
         color: #0080f8;
-        font-size: 3rem; }
+        font-size: 3rem;
+        text-shadow: 4px 0px 0px black; }
       article.titulo-card .div-text .tex-center {
         text-align: center; }
-      article.titulo-card .div-text .fondo-color {
-        background-color: rgba(0, 0, 0, 0.3); }
-      article.titulo-card .div-text .text-seccion, article.titulo-card .div-text .extend-prueba {
+      article.titulo-card .div-text .text-seccion {
+        text-shadow: 4px 0px 0px black;
         margin-bottom: 1.75rem;
-        color: #00c090;
+        color: #05b388;
         font-size: 2rem;
         width: 80%; }
     article.titulo-card .card-section {
@@ -1115,22 +1140,23 @@ html:not(.no-js) [data-aos=fade-left] {
       article.titulo-card .card-section .card-container {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: space-around; }
         article.titulo-card .card-section .card-container .card-flex {
-          width: 60%;
+          width: 23.5%;
           margin: 20px 0;
           background: #fff;
           text-align: center;
           display: flex;
           flex-direction: column;
           align-items: center;
-          justify-content: center; }
+          justify-content: center;
+          height: 910px; }
           article.titulo-card .card-section .card-container .card-flex .card-img {
             width: 100%;
-            filter: grayscale(0%);
-            border: 1px solid white; }
+            filter: grayscale(100%);
+            border: 1px solid #fff; }
           article.titulo-card .card-section .card-container .card-flex .card-img:hover {
             transition: .6s;
             filter: none; }
@@ -1141,13 +1167,13 @@ html:not(.no-js) [data-aos=fade-left] {
             align-items: center;
             justify-content: flex-start; }
           article.titulo-card .card-section .card-container .card-flex .card-titulo {
-            font-size: 30px;
+            font-size: 24px;
             color: #0080f8; }
           article.titulo-card .card-section .card-container .card-flex #text-card {
-            font-size: 24px;
-            color: #00c090; }
+            font-size: 21px;
+            color: #05b388; }
           article.titulo-card .card-section .card-container .card-flex .card-text {
-            font-size: 23px;
+            font-size: 20px;
             font-style: italic; }
           article.titulo-card .card-section .card-container .card-flex .card-footer {
             width: 100%; }
@@ -1155,7 +1181,7 @@ html:not(.no-js) [data-aos=fade-left] {
               width: 100%; }
               article.titulo-card .card-section .card-container .card-flex .card-footer .mailto-primery a {
                 color: #0080f8;
-                font-size: 19px;
+                font-size: 16px;
                 text-decoration: none; }
   .misiones-etc {
     margin: 15px 10px;
@@ -1171,7 +1197,7 @@ html:not(.no-js) [data-aos=fade-left] {
       .misiones-etc .div-container .titulo-misiones {
         font-size: 2.5rem;
         margin-bottom: 25px;
-        color: #00c090; }
+        color: #05b388; }
       .misiones-etc .div-container .anchura {
         color: #fff;
         font-size: 1.35rem;
@@ -1182,17 +1208,17 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.75rem 0;
       color: #0080f8;
-      font-size: 2.7rem; }
+      font-size: 2.7rem;
+      text-shadow: 4px 0px 0px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.7rem;
       width: 80%; }
   main .container-servi {
@@ -1219,6 +1245,8 @@ html:not(.no-js) [data-aos=fade-left] {
     main .container-servi .servi-img {
       border: 1px solid #fff; }
     main .container-servi .font {
+      text-shadow: 0px 4px 1px black;
+      font-weight: 800;
       color: #0080f8;
       padding: 0 15px;
       margin-bottom: 10px;
@@ -1240,21 +1268,21 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.75rem 0;
       color: #0080f8;
-      font-size: 2.7rem; }
+      font-size: 2.7rem;
+      text-shadow: 4px 0px 0px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       text-align: start;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.45rem;
       width: 850px; }
-      main .div-text .text-seccion .color-name, main .div-text .extend-prueba .color-name {
+      main .div-text .text-seccion .color-name {
         color: #0080f8;
         font-style: italic; }
   main .clientes-main {
@@ -1295,7 +1323,7 @@ html:not(.no-js) [data-aos=fade-left] {
         padding-left: 10px;
         text-align: start;
         font-size: 22px;
-        color: #00c090; }
+        color: #05b388; }
       main .clientes-main .card-clientes .cliente-comentario {
         padding-left: 10px;
         text-align: start;
@@ -1311,17 +1339,17 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.5rem 0;
       color: #0080f8;
-      font-size: 2.8rem; }
+      font-size: 2.8rem;
+      text-shadow: 4px 0px 0px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.55rem;
       width: 850px; }
   main .container-form {
@@ -1378,8 +1406,8 @@ html:not(.no-js) [data-aos=fade-left] {
   /*index*/
   /*carrusel*/
   main #div-carrusel {
-    height: 650px;
-    min-height: 550px;
+    height: 580px;
+    min-height: 480px;
     background: no-repeat center center scroll;
     background-size: cover; }
   main #texto {
@@ -1387,7 +1415,7 @@ html:not(.no-js) [data-aos=fade-left] {
     top: 50%;
     bottom: 0; }
   main #sub-texto {
-    color: #ffffff;
+    color: #fff;
     font-size: 1.5rem;
     font-weight: bold; }
     main #sub-texto b {
@@ -1401,8 +1429,8 @@ html:not(.no-js) [data-aos=fade-left] {
       padding: 10px 10px;
       display: flex;
       flex-direction: row;
-      justify-content: flex-end;
       align-items: center;
+      justify-content: flex-end;
       position: relative; }
     footer .derechos {
       width: 40vw;
@@ -1422,12 +1450,12 @@ html:not(.no-js) [data-aos=fade-left] {
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: space-evenly;
-      /*.icon-social{
-                padding-right:10px;
-                padding-left: 10px;
-                padding-top: 10px;
-            }*/ }
+      justify-content: space-evenly; }
+      footer .colum-div .icon-social {
+        width: 55px;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 0; }
   /*fin index*/
   /*main nosotros*/
   article.titulo-card {
@@ -1437,19 +1465,19 @@ html:not(.no-js) [data-aos=fade-left] {
       flex-direction: column;
       align-items: center;
       justify-content: center; }
-      article.titulo-card .div-text .titulo-seccion, article.titulo-card .div-text .prueba-extend {
+      article.titulo-card .div-text .titulo-seccion {
         margin: 1.5rem 0;
         color: #0080f8;
-        font-size: 3rem; }
+        font-size: 3rem;
+        text-shadow: 4px 0px 0px black; }
       article.titulo-card .div-text .tex-center {
         text-align: center; }
-      article.titulo-card .div-text .fondo-color {
-        background-color: rgba(0, 0, 0, 0.3); }
-      article.titulo-card .div-text .text-seccion, article.titulo-card .div-text .extend-prueba {
+      article.titulo-card .div-text .text-seccion {
         margin-bottom: 1.75rem;
-        color: #00c090;
-        font-size: 1.5rem;
-        width: 65%; }
+        color: #05b388;
+        font-size: 1.55rem;
+        width: 65%;
+        text-shadow: 4px 0px 0px rgba(0, 0, 0, 0.9); }
     article.titulo-card .card-section {
       width: 100%;
       height: 100%;
@@ -1468,11 +1496,12 @@ html:not(.no-js) [data-aos=fade-left] {
           display: flex;
           flex-direction: column;
           align-items: center;
-          justify-content: center; }
+          justify-content: center;
+          height: 100%; }
           article.titulo-card .card-section .card-container .card-flex .card-img {
             width: 100%;
             filter: grayscale(100%);
-            border: 1px solid white; }
+            border: 1px solid #fff; }
           article.titulo-card .card-section .card-container .card-flex .card-img:hover {
             transition: .6s;
             filter: none; }
@@ -1490,7 +1519,7 @@ html:not(.no-js) [data-aos=fade-left] {
             border: 1px solid rgba(0, 0, 0, 0.125);
             background-color: rgba(0, 0, 0, 0.03);
             font-size: 17px;
-            color: #00c090; }
+            color: #05b388; }
           article.titulo-card .card-section .card-container .card-flex .card-text {
             font-size: 16px;
             font-style: italic; }
@@ -1514,7 +1543,7 @@ html:not(.no-js) [data-aos=fade-left] {
       .misiones-etc .div-container .titulo-misiones {
         font-size: 2.4rem;
         margin-bottom: 30px;
-        color: #00c090; }
+        color: #05b388; }
       .misiones-etc .div-container .anchura {
         color: #fff;
         font-size: 1.25rem;
@@ -1526,17 +1555,17 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.75rem 0;
       color: #0080f8;
-      font-size: 2.7rem; }
+      font-size: 2.7rem;
+      text-shadow: 4px 0px 0px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.7rem;
       width: 80%; }
   main .container-servi {
@@ -1564,6 +1593,8 @@ html:not(.no-js) [data-aos=fade-left] {
       width: 95%;
       border: 1px solid #fff; }
     main .container-servi .font {
+      text-shadow: 0px 4px 1px black;
+      font-weight: bold;
       color: #0080f8;
       padding: 0 15px;
       margin-bottom: 10px;
@@ -1585,21 +1616,21 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.75rem 0;
       color: #0080f8;
-      font-size: 2.8rem; }
+      font-size: 2.8rem;
+      text-shadow: 4px 0px 0px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       text-align: start;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.50rem;
       width: 950px; }
-      main .div-text .text-seccion .color-name, main .div-text .extend-prueba .color-name {
+      main .div-text .text-seccion .color-name {
         color: #0080f8;
         font-style: italic; }
   main .clientes-main {
@@ -1638,7 +1669,7 @@ html:not(.no-js) [data-aos=fade-left] {
         padding-left: 10px;
         text-align: start;
         font-size: 21.5px;
-        color: #00c090; }
+        color: #05b388; }
       main .clientes-main .card-clientes .cliente-comentario {
         padding-left: 10px;
         text-align: start;
@@ -1654,17 +1685,17 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.5rem 0;
       color: #0080f8;
-      font-size: 2.8rem; }
+      font-size: 2.8rem;
+      text-shadow: 4px 0px 0px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.55rem;
       width: 850px; }
   main .container-form {
@@ -1726,17 +1757,17 @@ html:not(.no-js) [data-aos=fade-left] {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    main .div-text .titulo-seccion, main .div-text .prueba-extend {
+    main .div-text .titulo-seccion {
       margin: 1.75rem 0;
       color: #0080f8;
-      font-size: 2.7rem; }
+      font-size: 2.7rem;
+      text-shadow: 4px 0px 0px black; }
     main .div-text .tex-center {
       text-align: center; }
-    main .div-text .fondo-color {
-      background-color: rgba(0, 0, 0, 0.3); }
-    main .div-text .text-seccion, main .div-text .extend-prueba {
+    main .div-text .text-seccion {
+      text-shadow: 4px 0px 0px black;
       margin-bottom: 1.75rem;
-      color: #00c090;
+      color: #05b388;
       font-size: 1.7rem;
       width: 80%; }
   main .container-servi {
@@ -1761,6 +1792,8 @@ html:not(.no-js) [data-aos=fade-left] {
     main .container-servi .servi-img {
       border: 1px solid #fff; }
     main .container-servi .font {
+      text-shadow: 0px 4px 1px black;
+      font-weight: bold;
       color: #0080f8;
       padding: 0 25px;
       margin-bottom: 10px;
@@ -1775,43 +1808,3 @@ html:not(.no-js) [data-aos=fade-left] {
       color: #fff; }
     main .container-servi .margen {
       margin-bottom: 30px; } }
-
-/*comienza mixin*/
-/*SECCIONES MISIONES, VALORES NOSOTROS MAIN*/
-.div-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  text-align: center;
-  margin-top: 30px;
-  padding-top: 15px; }
-
-/*LLAMADO DE MIXIN EN SERVICIOS.HTML MAIN*/
-.container-servi {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin-top: 3rem; }
-
-/*LLAMADO DE MIXIN EN CLIENTES.HTML MAIN*/
-.clientes-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 20px 0;
-  width: 100%; }
-
-.titulo-seccion, .prueba-extend {
-  margin: 1.75rem 0;
-  color: #0080f8;
-  font-size: 2.8rem; }
-
-.text-seccion, .extend-prueba {
-  margin-bottom: 1.75rem;
-  color: #00c090;
-  font-size: 1.5rem;
-  width: 70%; }
